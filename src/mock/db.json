@@ -1,0 +1,28 @@
+{
+    "Trufas":[
+        {"id":1,
+        "name":"Trufa de maracujá",
+        "oldPrice":1.23,
+        "price":1.11,
+        "imagem":"https://s2.glbimg.com/1A2HKZg-JXMoeFHPY1nSgfKyWI0=/0x0:290x174/984x0/smart/filters:strip_icc()/s.glbimg.com/po/rc/media/2013/06/26/17_33_46_263_images.jpg"
+        },
+        {"id":2,
+            "name":"Trufa de morango",
+        "oldPrice":1.23,
+        "price":1.11,
+        "imagem":"https://sonhosdechocolate.webnode.com.br/_files/200000025-927d493772/NL_9094_39035.7737847222.jpg"
+        },
+        {"id":3,
+            "name":"Trufa de chocolate",
+            "oldPrice":1.03,
+            "price":10.11,
+            "imagem":"https://harald.com.br/wp-content/uploads/2018/11/P_trufa_natal_4_1000x1000.jpg"
+            },
+            {"id":4,
+                "name":"Trufa de coco",
+                "oldPrice":1.63,
+                "price":5.51,
+                "imagem":"https://sonhosdechocolate.webnode.com.br/_files/200000023-54b1255ab5/coco1_1.jpg"
+            }
+    ]
+}

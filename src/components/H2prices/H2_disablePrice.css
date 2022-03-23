@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Fiz h2 em componentes para poder colocar o import ja que a "font-family" é igual para todos*/
+.H2_disablePrice{
+     font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    color: #ACB2CC;
+    margin-bottom: 0px;
+}
+
+@media(max-width:1200px){
+    .H2_disablePrice{
+        font-size: 14px;
+    }
+  }
+
+  @media(max-width:630px){
+    .H2_disablePrice{
+        font-size: 26px;
+    }
+  }

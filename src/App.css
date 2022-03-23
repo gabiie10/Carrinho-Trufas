@@ -1,38 +1,99 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+  background: #D1D8E5;
+  margin: 0% auto;  
+  margin-left: 20%;
+  margin-right: 20%;  
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+header{
+  padding: 10px 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
   text-align: center;
+
+  border-bottom: 1px solid #D9D9D9;
+}
+.card-container h2{
+  margin-top: 0px;
+}
+.title{
+  font-family:  'Poppins', sans-serif;
+  font-size: 13px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+.img{
+  width: 130px;
+  height:80px;
+  
+  border:1px solid #D9D9D9 ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+img{
+  width: 130px;
+  height:80px;
+  
+  border:1px solid #D9D9D9 ;
+}
+.img alt{
+  font-size: 12px;
+}
+.result{
+  border-top: 1px solid #D9D9D9 ;
+  border-bottom: 1px solid #D9D9D9 ;  
+}
+.container-3{
+  padding: 14px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(max-width:1200px){
+  .title{
+    font-size: 23px;
+    margin-top: 10px;
+  }
+  header{
+    padding: 20px 34px;
+    font-size: 33px;
+  }
+  .img{
+    width: 130px;
+    height: 120px;   
+  }
+  img{
+    width: 128px;
+    height: 118px;  
+  }
+  .container-3{
+    padding: 44px 20px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:630px){
+  .title{
+    margin-top: 0px;
+    font-size: 33px; 
   }
-  to {
-    transform: rotate(360deg);
+  body{
+    margin: 0% auto;   
+  }
+  header{
+    padding: 20px 34px;
+    font-size: 33px;
+  }
+  .img{ 
+    width: 229px;
+    height: 170px; 
+  }
+  img{ 
+    width: 227px;
+    height: 168px; 
+  }
+  .container-3{
+    padding: 44px 20px;
   }
 }

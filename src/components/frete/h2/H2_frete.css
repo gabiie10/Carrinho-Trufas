@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+.frete-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 520;
+    color: rgb(19, 116, 19);
+    
+    margin-top: 0px;
+    border-radius:49px;
+    padding:10px 19px;
+    background-color: rgb(210, 247, 155);
+}
+
+
+
+
+@media(max-width:1200px)
+{
+    .frete-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 520;
+        color: rgb(19, 116, 19);
+        
+        margin-top: 0px;
+        border-radius:49px;
+        padding:10px 19px;
+        background-color: rgb(210, 247, 155);
+    }
+}

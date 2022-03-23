@@ -1,0 +1,12 @@
+.box-result{
+    display: flex;
+    padding: 20px 14px;
+    
+    text-align: center;
+    justify-content: space-between; 
+  }
+  @media(max-width:630px){
+    .box-result{
+      flex-direction: column;  
+    }
+  }

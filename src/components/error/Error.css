@@ -1,0 +1,35 @@
+.Error{
+  width: 506px;
+    background-color:white;
+    border-radius: 7px;
+    box-shadow:0 4px 8px 0 #C1C7D3;
+  }
+.error-img{
+    margin:20px 76px;
+}
+.Error h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+  @media(max-width:1200px){
+    .Error{
+    width: 506px;
+    height: auto;
+    }
+    .Error h2{
+      font-size: 34px;
+    }
+  }
+  @media(max-width:630px){
+    .Error h2{
+      font-size: 50px;
+    }
+    .Error{
+    width: 506px;
+    height: auto;
+    }
+  }
+  .error-img{
+    width: 350px;
+    height: 250px;
+  }

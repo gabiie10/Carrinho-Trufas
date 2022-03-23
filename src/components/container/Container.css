@@ -1,0 +1,19 @@
+.container{
+    width:400px;
+    height: auto;
+    background-color:white;
+    border-radius: 7px;
+    box-shadow:0 4px 8px 0 #C1C7D3;
+  }
+  @media(max-width:1200px){
+    .container{
+    width: 506px;
+    height: auto;
+    }
+  }
+  @media(max-width:630px){
+    .container{
+    width: 506px;
+    height: auto;
+    }
+  }
