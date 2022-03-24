@@ -18,13 +18,15 @@ import { H2_price } from './components/H2prices/H2_price';
 import { H2_disablePrice } from './components/H2prices/H2_disablePrice';
 import { H2_result } from './components/box-result/H2_result';
 import { Error } from './components/error/Error';
-//NOTA:NÃO RECEBI A API POR ISSO ESTOU USANDO MOCK E USANDO OUTRAS IMAGEMS.
+//////////////////////////////////////////////////////////////////IMPORTANTE
+//NOTA:não recebi a api, e os arquivos jsons foi falado que podem inspirar,entao to usando um mock que fiz ,e outras imagems.
+//////////////////////////////////////////////////////////////////IMPORTANTE
 function App() {
   const [text,setText]=useState([]);
   const [error,setError]=useState(false);
 
   useEffect(()=>{
-    axios.get('http://localhost:3133/Trufas')
+    axios.get('http://localhost:3333/Trufas')
     .then((response)=>{
       setText(response.data);
     })
