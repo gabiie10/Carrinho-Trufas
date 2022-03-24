@@ -3,11 +3,13 @@ import './App.css';
 //Hooks e afins
 import { useState,useEffect } from 'react';
 import axios from 'axios';
-//'containers
+//containers
 import { Card } from './components/card/Card';
 import { Container } from './components/container/Container';
 import { Details } from './components/details/Details';
-//Botao
+
+//"Estaticos"
+import { Error } from './components/error/Error';
 import { Button } from './components/button/Button';
 //Resultado
 import { Frete } from './components/frete/Frete';
@@ -17,8 +19,7 @@ import { H2_frete } from './components/frete/h2/H2_frete';
 import { H2_price } from './components/H2prices/H2_price';
 import { H2_disablePrice } from './components/H2prices/H2_disablePrice';
 import { H2_result } from './components/box-result/H2_result';
-import { Error } from './components/error/Error';
-//////////////////////////////////////////////////////////////////IMPORTANTE
+//////////////////////////////////////////////////////////////////IMPORTANTEcomm
 //NOTA:não recebi a api, e os arquivos jsons foi falado que podem inspirar,entao to usando um mock que fiz ,e outras imagems.
 //////////////////////////////////////////////////////////////////IMPORTANTE
 function App() {
